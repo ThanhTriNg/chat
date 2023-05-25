@@ -1,0 +1,61 @@
+.body {
+    height: 100vh;
+    background-color: #f8f9fd;
+}
+.wrapper {
+    background-color: #fff;
+    padding: 200px 32px;
+}
+.title {
+    text-align: center;
+}
+.btn {
+    width: 100%;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    height: 40px;
+    border-radius: 20px;
+}
+.btn ~ .btn {
+    margin: 0 8px;
+}
+.re-fo {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+.forgot-password {
+    text-decoration: underline;
+    font-size: 16px;
+    &:hover {
+        cursor: pointer;
+        font-weight: bold;
+
+    }
+}
+.input {
+    margin-top: 16px;
+    height: 50px;
+    padding: 12px 16px;
+    border-radius: 24px;
+}
+
+.input ~ .input {
+    margin-bottom: 16px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+}
+.social {
+    display: flex;
+    margin: 16px 0;
+}
+.signup {
+    text-decoration: underline;
+    font-size: 16px;
+    &:hover {
+        cursor: pointer;
+        font-weight: bold;
+    }
+}

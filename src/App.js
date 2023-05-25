@@ -1,5 +1,6 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
+import Signup from './components/Signup';
 import Login from './components/Login';
 import Chatroom from './components/Chatroom';
 import AuthProvider from './Context/AuthProvider';
@@ -12,6 +13,7 @@ function App() {
             <AuthProvider>
                 <AppProvider>
                     <Routes>
+                        <Route element={<Signup />} path="/signup" />
                         <Route element={<Login />} path="/login" />
                         <Route element={<Chatroom />} path="/" />
                     </Routes>
