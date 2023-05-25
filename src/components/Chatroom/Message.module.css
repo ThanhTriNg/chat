@@ -1,0 +1,15 @@
+.wrapper {
+  margin-bottom: 10px;
+}
+.wrapper .author {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.wrapper .date {
+  margin-left: 10px;
+  font-size: 11px;
+  color: #a7a7a7;
+}
+.wrapper .content {
+  margin-left: 30px;
+}/*# sourceMappingURL=Message.module.css.map */
